@@ -1,0 +1,339 @@
+{"intents": [
+        {"tag": "Question",
+         "patterns": ["What is Coronavirus?","Novel coronavirus", "what is COVID-19","Explain corona virus", "Tell me about covid", "tell me about corona virus"],
+         "responses": ["Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19?"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you please explain more"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me", "What you can do", "What help you provide", "How you can be helpful", "Help me","What support is offered"],
+         "responses": ["I can clear your queries realted to COVID 19.", "I can answer to your quaries related to corona virus"],
+         "context": [""]
+        },
+        {"tag": "symptoms",
+         "patterns": ["what are the symptoms of COVID-19","symptoms","covid-19 symptons", "coronavirus symptoms"],
+         "responses": ["The most common symptoms of COVID-19 are\nFever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."],
+         "context": [""]
+        },
+        {"tag": "Spread",
+         "patterns": ["coronavirus spread","spread"],
+         "responses": ["The disease can spread from person to person, People can catch corona virus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.\n\nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings"],
+         "context": [""]
+        },
+        {"tag": "protection",
+         "patterns": ["How do i protect myself from the spread and prevent the spread of COVID-19","prevent spread of corona","protection","how to protect","how to avoid corona virus", "stay safe from corona virus"],
+         "responses": ["Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.\n\nYou can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:\n\n1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n\n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\n3.Avoid touching eyes, nose and mouth.\n\n4. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\n5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.\n This will also protect you and help prevent spread of viruses and other infections.\nAvoid traveling to places where possible spread of COVID-19 and other viruses."],
+         "context": [""]
+        },
+	{"tag": "visitplace",
+         "patterns": ["i visit a place","i travelled a place with corona cases area","corona area","how to protect visiting corona area"],
+         "responses": ["Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\n\n1. Follow the guidance outlined above (Protection measures for everyone)\n2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\n    Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n    If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to preventossible spread of COVID-19 and other viruses."],
+         "context": [""]
+        },
+        {"tag": "likely",
+         "patterns": ["how likely am i to catch COVID-19","likely to catch"],
+         "responses": ["The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there.\n\nFor most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19.\n\nCOVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly."],
+         "context": [""]
+        },
+        {"tag": "worry",
+         "patterns": ["Should I worry about COVID-19"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"],
+         "context": [""]
+        },
+        {"tag": "risk",
+         "patterns": ["who is at risk of developing severe illness"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. "],
+         "context": [""]
+        },
+        {"tag": "antibiotics",
+         "patterns": ["Are antibiotics effective in curing or treating COVID-19"],
+         "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "],
+         "context": [""]
+        },
+
+         {"tag": "cure",
+         "patterns": ["Are there any medicines or therapies that can cure COVID-19"],
+         "responses": ["While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available."],
+         "context": [""]
+        },
+         {"tag": "vaccine",
+         "patterns": ["Is there a Vaccine, drug or treatment for COVID-19"],
+         "responses": ["Not yet discovered. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.\n\nPossible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.\nThe most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"],
+         "context": [""]
+        },
+         {"tag": "SARS",
+         "patterns": ["Is COVID-19 the same as SARS"],
+         "responses": ["No. The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different.\n\nSARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003. "],
+         "context": [""]
+        },
+         {"tag": "mask",
+         "patterns": ["Should i wear mask to protect myself"],
+         "responses": ["Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely.\n\nWHO advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks.The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"],
+         "context": [""]
+        },
+         {"tag": "put on",
+         "patterns": ["how to put on, take off and dispose a mask"],
+         "responses": ["Remember, a mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough.\n    Before touching the mask, clean hands with an alcohol-based hand rub or soap and water\n    Take the mask and inspect it for tears or holes.\n    Orient which side is the top side (where the metal strip is).\n    Ensure the proper side of the mask faces outwards (the coloured side).\n    Place the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose.\n    Pull down the mask’s bottom so it covers your mouth and your chin.\n    After use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.\n    Discard the mask in a closed bin immediately after use.\n    Perform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."],
+         "context": [""]
+        },
+         {"tag": "incubation",
+         "patterns": ["How long is the incubation period of COVID-19"],
+         "responses": ["The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."],
+         "context": [""]
+        },
+        {"tag": "human",
+         "patterns": ["can human become infected with the COVID-19 from an animal source"],
+         "responses": ["Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.  \n\nTo protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."],
+         "context": [""]
+        },
+        {"tag": "pet",
+         "patterns": ["Can i catch COVID-19 from pet"],
+         "responses": ["We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organisation for Animal Health (OIE) has been developing technical guidance on specialised topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of the COVID-19. "],
+         "context": [""]
+        },
+        {"tag": "surface",
+         "patterns": ["how long does the virus survive on surface"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).\n\nIf you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."],
+         "context": [""]
+        },
+        {"tag": "package",
+         "patterns": ["is it safe to receive a package from any area where COVID-19 has been reported"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. "],
+         "context": [""]
+        },
+        {"tag": "do",
+         "patterns": ["is there anything i should not do"],
+         "responses": ["The following measures ARE NOT effective against COVID-2019 and can be harmful:\n\n    Smoking\n    Wearing multiple masks\n    Taking antibiotics (See question 10 \"Are there any medicines of therapies that can prevent or cure COVID-19?\")\n\nIn any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."],
+         "context": [""]
+        },
+        {"tag": "source",
+         "patterns": ["Is the source of the coronavirus causing COVID-19 known?"],
+         "responses": ["Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related."],
+         "context": [""]
+        },
+         {"tag": "occur",
+         "patterns": ["how did the first human SARS-CoV-2 infection occur"],
+         "responses": ["The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2.\n\nHowever, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified.\n\nUntil the source of this virus is identified and controlled, there is a risk of reintroduction of the virus in the human population and the risk of new outbreaks like the ones we are currently experiencing"],
+         "context": [""]
+         },
+         {"tag": "airbone",
+         "patterns": ["Is COVID-19 airborne"],
+         "responses": ["The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. \n\nYou can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands. "],
+         "context": [""]
+         },
+	{"tag": "nosymptom",
+         "patterns": ["Can CoVID-19 be caught from a person who has no symptoms"],
+         "responses": ["The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill. "],
+         "context": [""]
+         },
+	{"tag": "deas",
+         "patterns": ["Can I catch COVID-19 from the feces of someone with the disease"],
+         "responses": ["The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a  main feature of the outbreak. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating. "],
+         "context": [""]
+         },
+	{"tag": "protect",
+         "patterns": ["What can I do to protect myself","how to protect","how to protect myself from corona"],
+         "responses": ["Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak,available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "],
+         "context": [""]
+         },
+	{"tag": "precautions",
+         "patterns": ["precautions", "reduce chance of getting corona","prevention","how to prevent from covid-19","Protect","protection","how to prevent", "prevent"],
+         "responses": ["1.Regularly and thoroughly clean your hands with an alcoholbased hand rub or wash them with soap and water. \n2.Maintain at least 1 metre (3 feet) distance between yourself andanyone who is coughing or sneezing. \n3.Avoid touching eyes, nose and mouth. \n4.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. "],
+         "context": [""]
+         },
+	{"tag": "worry",
+         "patterns": ["Should I worry about COVID-19","worry","tension"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. "],
+         "context": [""]
+         },
+	{"tag": "risk",
+         "patterns": ["Who is at risk of developing severe illness","risk"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others. "],
+         "context": [""]
+         },
+	{"tag": "anti",
+         "patterns": ["Are antibiotics effective in preventing treating the COVID-19?","treatment of covid by antibiotics"],
+         "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "],
+         "context": [""]
+         },
+	{"tag": "vacc",
+         "patterns": ["Is there a vaccine drug or treatment for COVID-19", "possible vaccine","vaccine","treatment","medicine"],
+         "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. "],
+         "context": [""]
+         },
+	{"tag": "sars",
+         "patterns": ["Is COVID-19 the same as SARS","what is sars","sars virus","sars"],
+         "responses": ["The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."],
+         "context": [""]
+         },
+	{"tag": "wear",
+         "patterns": ["when Should I wear mask to protect myself"],
+         "responses": ["Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. We urge people to use masks wisely. "],
+         "context": [""]
+         },
+	{"tag": "whenmask",
+         "patterns": ["who should use mask","who must wear mask","is it necessary to wear mask"],
+         "responses": ["A mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough."],
+         "context": [""]
+         },
+	{"tag": "timeperiod",
+         "patterns": ["How long is the incubation period for COVID-19","how many days it take to show symptoms"],
+         "responses": ["The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."],
+         "context": [""]
+         },
+	{"tag": "animals",
+         "patterns": ["Can humans become infected with the COVID-19 from an animal source"],
+         "responses": ["Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed."],
+         "context": [""]
+         },
+	{"tag": "anim",
+         "patterns": ["how protect from animals"],
+         "responses": ["To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products. "],
+         "context": [""]
+         },
+	{"tag": "pet",
+         "patterns": ["Can I catch COVID-19 from my pet?"],
+         "responses": ["While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19."],
+         "context": [""]
+         },
+	{"tag": "surface",
+         "patterns": ["How long does the virus survive on surfaces","life of coronavirus on surface", "virus on surface"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other corona viruses. Studies suggest that corona viruses may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others."],
+         "context": [""]
+         },
+	{"tag": "receive",
+         "patterns": ["safe to receive a package","pack from corona area"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. "],
+         "context": [""]
+         },
+	{"tag": "notdo",
+         "patterns": ["Is there anything I should not do"],
+         "responses": ["The following measures ARE NOT effective against COVID-2019 and can be harmful:\n1.Smoking\n2.Wearing multiple masks\n3.Taking antibiotics on your own"],
+	"context": [""]
+	},
+	{"tag": "whycovid",
+         "patterns": ["why disease is called covid19"],
+         "responses": ["In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”."],
+	"context": [""]
+	},
+	{"tag": "stigma",
+         "patterns": ["how can people help to stop stigma related to covid-19"],
+         "responses": ["People can fight stigma by providing social support in situations where you notice this is occurring. Stigma affects the emotional or mental health of stigmatized groups and the communities they live in. Stopping stigma is important to making communities and community members resilient. "],
+	"context": [""]
+	},
+	{"tag": "highbp",
+         "patterns": ["Are people with high blood pressure (hypertension) at higher risk from COVID-19"],
+         "responses": ["At this time, we do not think that people with high blood pressure and no other underlying health conditions are more likely than others to get severely ill from COVID-19. Although many people who have gotten severely ill from COVID-19 have high blood pressure, they are often older or have other medical conditions like obesity, diabetes, and serious heart conditions that place them at higher risk of severe illness from COVID-19"],
+	"context": [""]
+	},
+	{"tag": "source",
+         "patterns": ["what is the source of virus"],
+         "responses": ["COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats.  Rarely, animal coronaviruses can infect people and then spread between people. This occurred with MERS-CoV and SARS-CoV, and now with the virus that causes COVID-19. The SARS-CoV-2 virus is a betacoronavirus, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. "],
+	"context": [""]
+	},
+	{"tag": "quarantine",
+         "patterns": ["can someone who has been quarantine spread illness"],
+         "responses": ["Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease.For COVID-19, the period of quarantine is 14 days from the last date of exposure because the incubation period for this virus is 2 to 14 days. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period."],
+	"context": [""]
+	},
+	{"tag": "food",
+         "patterns": ["can this virus spread from food or food from restaurant"],
+         "responses": ["Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food – additional investigation is needed."],
+	"context": [""]
+	},
+	{"tag": "temp",
+         "patterns": ["Will high temp stop coronavirus","high temprature effect on corona virus","temperature effect on corona virus","heat effect on virus","weather effect on corona virus"],
+         "responses": ["Generally coronaviruses survive for shorter periods at higher temperatures and higher humidity than in cooler or dryer environments. However, we don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. The necessary temperature would also be based on the materials of the surface, the environment, etc.  There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."],
+	"context": [""]
+	},
+	{"tag": "casesindia",
+         "patterns": ["Total cases in india","corona positive in india","Corona cases india","stats of corona cases india","statistics report india" ,"india statistics"],
+         "responses": ["Please visit https://www.mygov.in/covid-19 or download aarogya setu app for lastest updates and details"],
+	"context": [""]
+	},
+	{"tag": "cases worls",
+         "patterns": ["Total cases in world","corona positive in world","Corona cases world","stats of corona cases world","statistics report world","world statistics"],
+         "responses": ["Please visit https://covid19.who.int/ for live updates"],
+	"context": [""]
+	},
+	{"tag": "caringsomeone",
+         "patterns": ["when caring for someone who is sick"],
+         "responses": ["1.Limit contact\nCOVID-19 spreads between people who are in close contact (within about 6 feet) through respiratory droplets, created when someone talks, coughs or sneezes.\n2. Eat in separate rooms or areas\n3.Avoid sharing personal items like dishes, cups/glasses, towels, bedding, or electronics (like a cell phone) with the person who is sick.\n4.When to wear a cloth face cover or gloves\n5.Clean your hands often\n6.Clean and then disinfect around the house"],
+	"context": [""]
+	},
+	{"tag": "childermask",
+         "patterns": ["should children wear mask?","childern mask"],
+         "responses": ["CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. Cloth face coverings should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the face covering without assistance."],
+	"context": [""]
+	},
+	{"tag": "familystress",
+         "patterns": ["how can my family cope up with stress","family stress of covid19"],
+         "responses": ["Supporting children with special healthcare needs can put additional demands and stress on families, especially during emergency situations. You have likely found ways to manage the stress and challenges unique to your family’s situation. It is important to continue your family’s coping methods, including reaching out to other family members, friends, support groups, and organizations that have been helpful in the past."],
+	"context": [""]
+	},
+	{"tag": "soap",
+         "patterns": ["should i use soap water or hand sanitizer"],
+         "responses": ["Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."],
+	"context": [""]
+	},
+	{"tag": "outbreak",
+         "patterns": ["what should i do if there is an outbreak in our community"],
+         "responses": ["During an outbreak, stay calm and put your preparedness plan to work. Follow the steps below:\n1.Stay home if you are sick. Keep away from people who are sick. Limit close contact with others as much as possible (about 6 feet).\n2.Stay informed about the local COVID-19 situation\n3.Continue practicing everyday preventive actions\n4.Notify your workplace as soon as possible if your regular work schedule changes\n5.Stay in touch with others by phone or email"],
+	"context": [""]
+	},
+	{"tag": "communitywork",
+         "patterns": ["should i go to work if there is outbreak in my community"],
+         "responses": ["Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with COVID-19 symptoms, or if your child’s school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak."],
+	"context": [""]
+	},
+	{"tag": "testforcovid",
+         "patterns": ["how can i get tested for covid19","checkup for corona virus"],
+         "responses": ["Two kinds of tests are available for COVID-19: viral tests and antibody tests. A viral test checks for a current infection. An antibody test checks for a previous infection.\nIf you think you need a viral test, call your healthcare provider or state or localexternal icon health department and tell them about your symptoms and how you think you may have been exposed to the virus. Your healthcare provider can let you know if they offer viral tests at their office. Your state or local health department can provide local information on where testing is available. If you want an antibody test, call your healthcare provider to see if they offer antibody tests and whether you should get one. You can also visit your state or local health department’s website for local information on antibody testing."],
+	"context": [""]
+	},
+	{"tag": "laterpositive",
+         "patterns": ["can someone test negative and later test positive on viral test","get again coronavirus"],
+         "responses": ["Yes, it is possible. You may test negative if the sample was collected early in your infection and test positive later during this illness. You could also be exposed to COVID-19 after the test and get infected then. Even if you test negative, you still should take steps to protect yourself and others. "],
+	"context": [""]
+	},
+	{"tag": "againcv",
+         "patterns": ["if i have recovered from covid-19 will i be immune to it","can i get covid-19 again","can i caught covid19 again once recovered"],
+         "responses": ["We do not know yet if people who recover from COVID-19 can get infected again. CDC and partners are investigating to determine if a person can get sick with COVID-19 more than once. Until we know more, continue to take steps to protect yourself and others."],
+	"context": [""]
+	},
+	{"tag": "funeral",
+         "patterns": ["am i at risk if i go to funeral of someone who died covid19","can i attend funeral"],
+         "responses": ["There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19."],
+	"context": [""]
+	},
+	{"tag": "cleaning",
+         "patterns": ["is cleaning effective against covid virus","normal cleaning","cleaning with water effective","how to clean surfaces"],
+         "responses": ["Cleaning does not kill germs, but by removing them, it lowers their numbers and the risk of spreading infection. If a surface may have gotten the virus on it from a person with or suspected to have COVID-19, the surface should be cleaned and disinfected. Disinfecting kills germs on surfaces."],
+	"context": [""]
+	},
+	{"tag": "helplinelist",
+         "patterns": ["helpline numbers", "states helpline numbers","india helpline for corona","on which  number i should call"],
+         "responses": ["=========State and union territory Helpline numbers=====\n1.Andaman and Nicobar : 03192-232102, 03192-234287\n2.Andhra Pradesh : 0866-2410978\n3.Arunachal Pradesh : 104\n4.Assam : 104\n5.Bihar : 0612-2217681, 0612-2233806, 104\n6.Chandigarh : 0172-2752038, 0172-2752031, 0172-2704048\n7.Chhattisgarh : 0771-282113, 0771-2446607, 0771-2440608\n8.Dadra and Nagar Haveli : 104, 1077, 0260-2642106, 0260-2630304\n9.Daman and Diu : 104, 1077, 0260-2642106, 0260-2630304\n10.Delhi : 011-22307145\n11.Goa : 104\n12.Gujarat : 079-23251900, 079-23251908, 104\n13.Haryana : 0172-2545938\n14.Himachal Pradesh : 077-2628940, 077-2629439, 104\n15.Jammu and Kashmir : 0191-2549676, 0191-2520982, 0194-2440283, 0194-2452052, 0194-2457313\n16.Jharkhand : 0651-2282201, 0651-2284185, 0651-223488, 181, 104\n16.Karnataka : 080-46848600, 1075, 104\n17.Kerala : 0471-2552056, 0471-25521056\n18.Ladakh : 01982-256462, 01982-257416, 01982-258960\n19.Lakshadweep : 104/ 04896-263742\n20.Maharashtra : 022-22024535\n21.Manipur : 1800-345-3818\n22.Meghalaya : 108, 0364-2224100, 0364-2590623\n23.Mizoram : 102\n24.Madhya Pradesh : 104, 1075, 181,0755-2411180,0755-2704201, 0729-22344\n25.Nagaland : 0370-2291122, 0370-2270338\n26.Odisha : 104, 0674-2534177\n27.Puducherry : 104, 1070, 1077, 0413-2253407\n28.Punjab : 104\n29.Rajasthan : 0141-2225000, 0141-2225624\n30.Sikkim : 104, 03592-284444\n31.Tamil Nadu : 0471-2552056, 0471-25521056\n32.Telengana : 104, 040-23286100\n33.Tripura : 0381-2315879, 0381-2412424, 0381-2413434\n34.Uttar Pradesh : 0522-2237515\n35.Uttarakhand : 104\n36.West Bengal : 1800-313-444222, 033-23412600"],
+	"context": [""]
+	}
+   ]
+}
