@@ -8,6 +8,7 @@ chardet==4.0.0
 click==8.0.1
 colorama==0.4.4
 cycler==0.10.0
+Cython==0.29.23
 Flask==1.0.2
 Flask-Migrate==2.5.3
 Flask-SQLAlchemy==2.4.1
